@@ -10,19 +10,19 @@ buttons.forEach((button) => {
 
 		if (userHand != comHand) {
 			if (userHand == 'Rock' && comHand == 'Scissors') {
-				alert(`YOU WIN!`);
+				alert(`YOU WIN! ${userHand} x ${comHand}`);
 
 			} else if (userHand == 'Paper' && comHand == 'Rock') {
-				alert(`YOU WIN!`);
+				alert(`YOU WIN! ${userHand} x ${comHand}`);
 
 			} else if (userHand == 'Scissors' && comHand == 'Paper') {
-				alert(`YOU WIN!`);
+				alert(`YOU WIN! ${userHand} x ${comHand}`);
 
 			} else {
-				alert(`YOU LOSE :/`);
+				alert(`YOU LOSE :/ ${userHand} x ${comHand}`);
 			}
 		} else {
-			alert(`DRAW!`);
+			alert(`DRAW! ${userHand} x ${comHand}`);
 		}
 	});
 });
